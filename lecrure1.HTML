@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <title>Title of the document</title>
 </head>
 
 <body>
-Content of the document......
-</body>
+<h1 id="myHeader">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+
+<script>
+function displayResult() {
+    document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+</script>
 
 </html>
